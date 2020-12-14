@@ -1,0 +1,13 @@
+@import "./constants";
+
+.text--bold {
+  font-weight: $av-font-weight-bold;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--right {
+  text-align: right !important;
+}

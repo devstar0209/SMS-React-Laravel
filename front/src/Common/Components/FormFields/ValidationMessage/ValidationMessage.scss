@@ -1,0 +1,20 @@
+@import 'src/Common/Styles/constants.scss';
+
+.validation-message {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	padding-top: 4px;
+	font-size: $av-font-size;
+	color: $av-error-red;
+
+	.validation-message__icon {
+		font-size: $av-font-size-lg;
+		padding-right: $av-padding-sm;
+	}
+
+	.validation-message__span {
+		display: inline-block;
+		width: 100%;
+	}
+}

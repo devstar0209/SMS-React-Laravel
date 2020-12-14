@@ -1,0 +1,55 @@
+@import 'Common/Styles/constants.scss';
+
+// react-toastr overrides
+
+$toast-border-width: 8px;
+
+.Toastify__toast-container {
+  width: 29rem !important;
+  position: fixed;
+  z-index: 100000;
+}
+
+// .av-toast {
+//   width: 30rem;
+//   min-height: 7rem !important;
+//   background-color: white !important;
+//   color: $av-text-blue;
+//   padding: $av-padding-xlg $av-padding-xlg $av-padding-xlg 0 !important;
+//   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .3), 0 4px 15px 0 rgba(0, 0, 0, .05) !important;
+//   border-radius: $toast-border-width !important;
+// }
+
+.av-toast {
+    display: flex;
+    width: 30rem;
+    height: 30px;
+    min-height: 0rem !important;
+    background-color: white !important;
+    color: #002F5B;
+    margin-top: 2px;
+    padding: 4px 20px 20px 0 !important;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3), 0 4px 15px 0 rgba(0, 0, 0, 0.05) !important;
+    border-radius: 8px !important;
+}
+
+.Toastify__toast-body {
+  width: 100%;
+}
+
+.Toastify__close-button {
+  border: 0px;
+  height: fit-content;
+}
+
+.av-toast-success {
+  border-left: $toast-border-width solid $av-main-green;
+}
+
+.av-toast-warning {
+  border-left: $toast-border-width solid $av-main-orange;
+}
+
+.av-toast-error {
+  border-left: $toast-border-width solid $av-main-red;
+}

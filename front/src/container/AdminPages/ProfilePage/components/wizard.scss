@@ -1,0 +1,18 @@
+.step-doing em, .step-todo em{
+    background: #EDEDED !important;
+    color: #828282 !important;
+    box-shadow: -5px 5px 10px rgba(213, 213, 213, 0.2), 5px -5px 10px rgba(213, 213, 213, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(213, 213, 213, 0.9);
+}
+
+.forms-wizard span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.forms-wizard span.active {
+    color: #333333;
+}

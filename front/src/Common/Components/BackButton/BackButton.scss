@@ -1,0 +1,21 @@
+@import "../../../Common/Styles/constants.scss";
+
+.ui.button.back-button {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    color: $av-text-blue;
+    background: transparent;
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-top: 0;
+
+
+    &:hover {
+        color: $av-text-blue;
+
+        .back-button__icon {
+            color: $av-text-blue;
+        }
+    }
+}

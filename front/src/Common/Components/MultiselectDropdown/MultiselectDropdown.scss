@@ -1,0 +1,32 @@
+@import '../../Styles/constants.scss';
+
+.react-select__placeholder {
+	// color: rgba(191, 191, 191, .87) !important;
+	// font-size: $av-font-size-lg;
+}
+
+.react-select__menu {
+	margin: 0 !important;
+}
+
+.multiselect__select-all-option {
+	// background-color: $av-day-checkbox-gray;
+	display: flex;
+	// align-items: center;
+	padding: 7px 10px;
+	// font-size: $av-font-size-md;
+	cursor: pointer;
+}
+
+.multiselect__option {
+	display: flex;
+	align-items: center;
+	padding: 7px 20px;
+	// font-size: $av-font-size-md;
+	cursor: pointer;
+	// border-bottom: 1px solid $av-gray;
+}
+
+.react-select__value-container {
+	display: flex;
+}

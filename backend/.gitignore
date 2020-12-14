@@ -1,0 +1,4 @@
+vendor
+storage
+app/http/kernel
+.env

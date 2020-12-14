@@ -1,0 +1,54 @@
+@import "../../../Common/Styles/constants";
+
+.avail__icon {
+	font-size: $av-font-size-xxlg;
+	color: $av-gray;
+}
+
+.avail__icon--20 {
+	font-size: 20px;
+}
+
+.icon--blue {
+	color: $av-blue;
+}
+
+.icon--white {
+	color: $av-white;
+}
+
+.icon--dark-blue {
+	color: $av-text-blue;
+}
+
+.icon--green {
+	color: $av-main-green;
+}
+
+.icon--orange {
+	color: $av-main-orange !important;
+}
+
+.icon--red {
+	color: $av-main-red;
+}
+
+.icon--red-secondary {
+	color: $av-secondary-red;
+}
+
+.icon--gray {
+	color: $av-icon-gray;
+}
+
+.icon--purple {
+	color: #392F5A;
+}
+
+.icon--light-green {
+	color: $av-event-green;
+}
+
+.icon--gray1 {
+	color: $av-input-white1;
+}

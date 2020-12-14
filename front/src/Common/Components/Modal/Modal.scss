@@ -1,0 +1,53 @@
+@import "../../../Common/Styles/constants";
+
+.modal {
+    top: 60px;
+    left: initial;
+    width: 100%;
+    height: initial;
+    overflow: hidden;
+    outline: 0;
+}
+
+.ui.page.dimmer {
+    background-color: transparent;
+}
+
+.ui.modal {
+    width: 30rem;
+
+    .modal__action-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3rem;
+    }
+
+    .modal__content-wrapper {
+        width: 25rem;
+    }
+
+    .modal__header-wrapper {
+        width: 25rem;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header {
+        font-family: "Nunito", sans-serif;
+        color: #02305C;
+        display: flex;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+    .content {
+        background-color: #FAFAFA;
+        display: flex;
+    }
+}
+
+.header .avail__icon {
+    &:hover {
+        cursor: pointer;
+    }
+}

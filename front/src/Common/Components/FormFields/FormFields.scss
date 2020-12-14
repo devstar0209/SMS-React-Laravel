@@ -1,0 +1,458 @@
+@import "../../Styles/constants";
+
+.form-field {
+	padding: .5rem 0 0 0;
+	//width: $input-width;
+	width: 100%;
+}
+
+.form-field,
+.form-fields {
+	position: relative;
+
+	.form-field__label{
+		display: inline !important;
+	}
+
+	.form-field__label,
+	.form-field__span {
+		display: block;
+		font-size: $av-font-size-gtmd;
+		margin-bottom: $av-margin-sm;
+		//padding-left: .7rem;
+		color: $av-text-black;
+	}
+
+	.form-field__span {
+		margin-left: $av-margin-sm;
+	}
+
+	.form-field__red_span{
+		color: red;
+	}
+}
+
+.ui.input.form-field__text-input input{
+	padding: 13px 20px ;
+	background: #E8E8E8 !important;
+    box-shadow: inset -2px 2px 4px rgba(209, 209, 209, 0.2), inset 2px -2px 4px rgba(209, 209, 209, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(209, 209, 209, 0.9) !important;
+	border-radius: 50px !important;
+	border: 0 !important;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	height: 48px;
+	width: 100% !important;
+}
+
+.form-field__datepicker, .form-field__timepicker{
+	padding: 13px 20px !important;
+	background: #E8E8E8 !important;
+    box-shadow: inset -2px 2px 4px rgba(209, 209, 209, 0.2), inset 2px -2px 4px rgba(209, 209, 209, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(209, 209, 209, 0.9) !important;
+	border-radius: 50px !important;
+	border: 0 !important;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	height: 48px;
+	width: 100% !important;
+}
+
+.react-datepicker-wrapper input:focus {
+	outline: none;
+}
+
+.form-field__select  .css-yk16xz-control{
+	padding: 0px 20px !important;
+	background: #E8E8E8 !important;
+    box-shadow: inset -2px 2px 4px rgba(209, 209, 209, 0.2), inset 2px -2px 4px rgba(209, 209, 209, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(209, 209, 209, 0.9) !important;
+	border-radius: 50px !important;
+	border: 0 !important;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	height: 48px;
+	width: 100% !important;
+}
+
+.css-1pahdxg-control{
+	padding: 0px 20px !important;
+	background: #E8E8E8 !important;
+    box-shadow: inset -2px 2px 4px rgba(209, 209, 209, 0.2), inset 2px -2px 4px rgba(209, 209, 209, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(209, 209, 209, 0.9) !important;
+	border-radius: 50px !important;
+	border: 0 !important;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	height: 48px;
+	width: 100% !important;
+}
+
+.react-select__control {
+	padding: 0px 20px !important;
+	background: #E8E8E8 !important;
+    box-shadow: inset -2px 2px 4px rgba(209, 209, 209, 0.2), inset 2px -2px 4px rgba(209, 209, 209, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(209, 209, 209, 0.9) !important;
+	border-radius: 50px !important;
+	border: 0 !important;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	height: 48px;
+	width: 100% !important;
+}
+
+.ui.input.form-field__text-input {
+	display: block;
+}
+
+.ui.input.form-field__textarea-input {
+	font-size: $av-font-size;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+
+	&:focus-within, &:focus {
+		outline: none;
+	}
+
+	input {
+		height: $av-field-height;
+		min-width: 0;
+		//padding: .7rem;
+		flex: 0 0 100%;
+		border: 1px solid $av-input-gray1;
+		border-radius: 3px;
+		font-size: $av-font-size-lg;
+		color: $av-text-blue;
+		background: $av-white 0% 0% no-repeat padding-box;
+	}
+
+	input[type=number] {
+		-moz-appearance: textfield;
+	}
+
+	input[type=number]::-webkit-inner-spin-button,
+	input[type=number]::-webkit-outer-spin-button {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+		margin: 0;
+	}
+
+	&.ui.labeled.input {
+		input {
+			flex: 1;
+		}
+
+		.ui.label.label {
+			flex: initial;
+			height: $av-field-height;
+			line-height: 1.5rem;
+			white-space: nowrap;
+			background-color: $av-white;
+			color: $av-pastel-gray;
+			font-family: $av-font-family-base;
+			font-weight: $av-font-weight-5;
+			display: block;
+		}
+	}
+
+	::placeholder {
+		font-size: $av-font-size-lg;
+	}
+}
+
+.form-field__multiple-dropdown {
+	border: 1px solid $av-input-gray;
+	// background-color: $av-white;
+
+	&:hover {
+		background-color: #ebecf0 !important;
+	}
+}
+
+.form-field__multiple-dropdown > .menu {
+	width: 100% !important;
+}
+
+.form-field__multiple-dropdown > .text {
+	// font-size: $av-font-size-lg;
+}
+
+.ui.dropdown.search.selection.form-field__select {
+	// border: 1px solid $av-input-gray;
+
+	::placeholder {
+		// font-size: $av-font-size-lg;
+	}
+
+	// font-size: $av-font-size-lg;
+	min-height: auto;
+	// padding: .7rem 1rem;
+	width: 100%;
+	min-width: 5rem;
+	// height: $av-field-height;
+	display: flex !important;
+	align-items: center;
+
+	&:hover, &:focus {
+		background-color: #ebecf0;
+	}
+
+	&.active {
+		font-weight: $av-font-weight-3;
+
+		.dropdown.icon {
+			color: $av-black;
+		}
+	}
+
+	.menu.transition.visible {
+		width: auto;
+		border: $av-border-width solid $av-pastel-gray;
+		box-shadow: 0 2px 4px 0 transparent;
+	}
+
+	.menu > .item {
+		font-size: $av-font-size-lg;
+		font-weight: $av-font-weight-5;
+		border-top: none;
+		white-space: nowrap;
+
+		&:hover,
+		&.active.selected {
+			background-color: $av-main-orange;
+			color: $av-white;
+		}
+	}
+
+	div.text {
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		padding-right: $av-padding-lg;
+	}
+
+	input.search {
+		padding: inherit;
+		height: $av-field-height;
+		font-family: "Nunito", sans-serif;
+	}
+
+	.dropdown.icon {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.form-field--error {
+	.ui.input.form-field__text-input {
+		border-color: $av-error-red;
+	}
+}
+
+.ui.selection.dropdown {
+	line-height: 1.4rem;
+	border-radius: 2px;
+	color: $av-text-blue;
+}
+
+.form-field__date-picker-input {
+	outline: none;
+	min-width: 0;
+	padding: .7rem 1rem;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
+	border: 1px solid $av-input-gray;
+	border-radius: 2px;
+	width: 10rem;
+	height: 3rem;
+	font-family: $av-font-family-base;
+	font-size: $av-font-size-md;
+	color: $av-text-blue;
+}
+
+.ui.input > input {
+	font-family: $av-font-family-base;
+}
+
+.avail-profile__edit-form {
+	div.text {
+		font-weight: $av-font-weight-bold;
+	}
+
+	.ui.input.form-field__text-input {
+		input {
+			font-weight: $av-font-weight-bold;
+			background: transparent;
+		}
+	}
+}
+
+.avail__input {
+	border: 0 !important;
+
+	input {
+		&:focus {
+			border-radius: 2px !important;
+			background-color: #FFFFFF !important;
+			box-shadow: inset 0 0 3px 0 #0097E9 !important;
+			-webkit-user-select: all;
+			-moz-user-select: all;
+			-ms-user-select: all;
+			user-select: all;
+		}
+
+		&:disabled {
+			border: 0 !important;
+		}
+	}
+
+
+	&:hover {
+		input {
+			background-color: rgb(235, 236, 240) !important;
+		}
+
+		input:focus {
+			background-color: white !important;
+		}
+	}
+}
+
+.avail__input.ui.search {
+
+	input.search {
+		border: 1px solid $av-input-gray !important;
+
+		&:focus {
+			border-radius: 2px !important;
+			background-color: #FFFFFF !important;
+			box-shadow: 0 0 3px 0 #0097E9 !important;
+			-webkit-user-select: all;
+			-moz-user-select: all;
+			-ms-user-select: all;
+			user-select: all;
+		}
+
+		&:disabled {
+			border: 0 !important;
+		}
+	}
+
+
+	&:hover {
+		input {
+			background-color: rgb(235, 236, 240) !important;
+		}
+
+		input:focus {
+			background-color: white !important;
+		}
+	}
+}
+
+.avail__input-wrapper {
+	font-size: $av-font-size-lg;
+	padding: .8rem 0;
+
+	span {
+		padding-left: .7rem;
+		margin-bottom: 5px;
+	}
+
+	input {
+		padding-left: .7rem !important;
+		font-weight: $av-font-weight-bold;
+		color: $av-text-blue !important;
+	}
+}
+
+.avail__field {
+	padding: .8rem 0;
+}
+
+.ui.selection.dropdown.avail__select {
+	width: 100%;
+	font-size: $av-font-size-lg;
+	min-height: 2.7rem;
+	border: 1px solid $av-input-gray;
+	padding: .7rem 1rem;
+	display: flex;
+	align-items: center;
+	line-height: 1rem;
+
+	&:hover {
+		border-color: $av-pastel-gray;
+	}
+
+	.menu {
+		border-color: $av-pastel-gray;
+	}
+
+	.item {
+		font-weight: $av-font-weight-5;
+		font-size: $av-font-size-lg;
+		color: $av-text-blue;
+		border-top: none;
+
+		&:hover {
+			background-color: $av-main-orange;
+			color: white;
+		}
+	}
+
+	.item.selected {
+		background-color: $av-main-orange;
+		color: $av-white;
+	}
+}
+
+.avail__label {
+	display: block;
+	font-size: $av-font-size-lg;
+	margin-bottom: 5px;
+	padding-left: .7rem;
+	color: $av-label-gray;
+}
+
+.avail__radio-button {
+	.ui.radio.checkbox {
+		label {
+			font-size: $av-font-size-lg;
+			color: $av-text-blue;
+		}
+
+		input:checked ~ label:after {
+			background-color: $av-blue;
+		}
+
+		label:before {
+			border: 2px solid $av-text-blue;
+		}
+
+		input:checked ~ label:before {
+			border: 2px solid $av-text-blue;
+		}
+	}
+}
+
+.form-datepicker .form-field__datepicker {
+	height: 43px !important;
+	border-color: black !important;
+}

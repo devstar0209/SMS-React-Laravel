@@ -1,0 +1,120 @@
+h1, h2, h3, h4, p, i , label {
+    font-family: Rubik;
+}
+.btn-common {
+    background: linear-gradient(135deg, #F4F4F4 0%, #DCDCDC 100%);
+    box-shadow: -5px 5px 10px rgba(209, 209, 209, 0.2), 5px -5px 10px rgba(209, 209, 209, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 209, 209, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 209, 209, 0.5);
+    border-radius: 50px;
+    border-color: #F4F4F4;
+    color: #333333;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    
+}
+
+.btn-common:hover{
+    background: linear-gradient(135deg, #DCDCDC 0%, #F4F4F4 100%);
+    box-shadow: -5px 5px 10px rgba(209, 209, 209, 0.2), 5px -5px 10px rgba(209, 209, 209, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(209, 209, 209, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(209, 209, 209, 0.5);
+    color: #E85763;
+    border-color: #F4F4F4;
+    text-shadow: 0px 0px 10px rgba(252, 114, 105, 0.5);
+}
+
+.btn-default-size {
+    width: 100px;
+    height: 39px;
+}
+
+.btn-new {
+    width: 160px;
+    height: 39px;
+}
+
+.btn-icon {
+    padding: 10px 30px;
+}
+
+.box {
+    width: 100%;
+    min-height: 90vh;
+    overflow: auto;
+    overflow-x: hidden;
+    background: linear-gradient(135deg, #F9F9F9 0%, #E1E1E1 100%);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: -10px 10px 20px rgba(213, 213, 213, 0.2), 10px -10px 20px rgba(213, 213, 213, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.9), 10px 10px 25px rgba(213, 213, 213, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(213, 213, 213, 0.5);
+    border-radius: 50px;
+    scrollbar-width: none;
+    ::-webkit-scrollbar {
+        display: none;
+      }
+}
+
+.bg-page {
+    min-height: 100vh;
+    background: url('../Common/Assets/Images/bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.app-header__logo {
+    position: relative !important;
+    width: 312px;
+}
+
+.caption {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Grey */
+
+    color: #828282;
+}
+
+.card {
+    background: #EDEDED;
+    box-shadow: -5px 5px 10px rgba(213, 213, 213, 0.2), 5px -5px 10px rgba(213, 213, 213, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(213, 213, 213, 0.9);
+    border-radius: 4px;
+    padding: 25px;
+}
+
+.card-header {
+    font-family: Rubik;
+    text-transform: none;
+    color: #333333;
+    border-bottom: 0;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+
+
+.app-sidebar__inner {
+    margin-top: 40px;
+}
+
+.forms-wizard {
+    width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+    .app-header .app-header__logo .logo-src {
+        display: none;
+    }
+}

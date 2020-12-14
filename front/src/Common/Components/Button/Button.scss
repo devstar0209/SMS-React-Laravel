@@ -1,0 +1,110 @@
+@import "../../../Common/Styles/mixins";
+@import "../../../Common/Styles/constants.scss";
+
+.button {
+	&.ui.button {
+		min-width: 6rem;
+		width: 185px;
+		//width: auto;
+		height: 50px;
+		box-sizing: border-box;
+		border: none;
+		font-family: $av-font-family-base;
+		vertical-align: middle;
+		cursor: pointer;
+		border-radius: 3px;
+		font-weight: 100;
+		//font-weight: $av-font-weight-3;
+		min-height: auto;
+		margin: 0;
+		padding: 9px 20px;
+		font-size: $av-font-size-gtlg;
+		line-height: 23px;
+
+		&.button--full {
+			-webkit-box-shadow: -0 2px 10px $av-main-bg-faded;
+			-moz-box-shadow: -0 2px 10px $av-main-bg-faded;
+			box-shadow: -0 2px 10px $av-main-bg-faded;
+			-webkit-transition: .2s ease-in-out;
+			-moz-transition: .2s ease-in-out;
+			-o-transition: .2s ease-in-out;
+			@include button-variant(
+							$av-button-full-background,
+							$av-button-full-color,
+							$av-button-full-background-hover,
+							$av-button-full-color
+			);
+
+			&.ui.button:disabled,
+			&.ui.disabled.button {
+				background-color: $av-button-full-background-disabled;
+				opacity: 1;
+			}
+
+			&.ui.button:hover {
+				-webkit-box-shadow: 0 10px 18px $av-main-bg-faded;
+				-moz-box-shadow: 0 10px 18px $av-main-bg-faded;
+				box-shadow: 0 10px 18px $av-main-bg-faded;
+			}
+		}
+
+		&.button--ghost {
+			border-radius: 1px;
+			border: 0;
+			@include button-variant(
+							transparent,
+							$av-blue,
+							transparent,
+							$av-blue
+			);
+
+			&.ui.button:disabled,
+			&.ui.disabled.button {
+				background-color: $av-button-ghost-background-disabled;
+				color: $av-button-ghost-color-disabled;
+				border: $av-border-width solid $av-button-ghost-color-disabled;
+				opacity: 1;
+			}
+		}
+
+		&.button--no-border {
+			border: none;
+		}
+	}
+}
+
+.ui.disabled.input {
+	opacity: 1;
+
+	&:hover {
+		cursor: not-allowed;
+	}
+}
+
+.button__wrapper {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: flex-end;
+
+	.button.ui.button:nth-child(2) {
+		margin-left: 1rem;
+	}
+}
+
+.tabs-with-button__button-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ui.button.button-with-icon {
+	padding: .3rem .7rem !important;
+	border-radius: 4px;
+	border: 0;
+	background: transparent;
+	display: flex;
+	align-items: center;
+
+	&:hover {
+		background-color: $av-button-gray;
+	}
+}

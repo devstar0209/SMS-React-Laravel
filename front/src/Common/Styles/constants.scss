@@ -1,0 +1,144 @@
+//== Colors
+//
+
+//white
+$av-white: white;
+$av-snow-white: #FAFAFA;
+
+//black
+$av-black: black;
+$av-jet-black: #333;
+
+$av-text-black: #000;
+
+//main bg color
+$av-main-bg-color: #412234;
+$av-main-bg-faded: rgba(65, 34, 52, 0.3);
+
+//grays
+$av-pastel-gray: #CAD8DF;
+$av-scheduler-border-gray: #EDF0F2;
+$av-text-gray: #888A8C;
+$av-icon-gray: #C2D1D9;
+$av-box-shadow: rgba(34, 36, 38, .15);
+$av-gray: #B9C6D2;
+$av-calendar-gray: #BCBCBC;
+$av-calendar-border-gray: #DADCE0;
+$av-label-gray: #5E7489;
+$av-day-checkbox-gray: #EEEEEE;
+$av-input-gray: #EDEDED;
+$av-input-gray: #EDEDED;
+$av-checkbox-border-gray: #D0D9E1;
+$av-button-gray: rgba(9, 30, 66, 0.04);
+
+// input box
+$av-input-gray1: #707070;
+
+// sidemenu icon color
+$av-input-white1: #EAD7D7;
+
+//oranges
+$av-main-orange: #FFAC02;
+$av-secondary-orange: #FFF4DF;
+$av-main-orange-faded: rgba(255, 172, 10, 0.3);
+
+//reds
+$av-main-red: #FD5674;
+$av-secondary-red: #FB3640;
+$av-error-red: #FF9D8D;
+$av-red-light: #FFE7EC;
+
+//greens
+$av-main-green: #1B9D65;
+$av-lighter-green: #6DCA98;
+$av-event-green: #44AF69;
+$av-past-event-green: rgba(68, 175, 105, 0.5);
+$av-invoice-status-green: #EEF7F1;
+
+//blues
+$av-text-blue: #002F5B;
+$av-event-blue: #0097E9;
+$av-light-blue: #C6D9F9;
+$av-lighter-blue: #E2EDFD;
+$av-background-blue: #F2F9FF;
+$av-pagination-active: rgba(0, 47, 91, 0.1);
+$av-past-event-blue: rgba(0, 151, 233, 0.5);
+$av-blue: #0097E9;
+$av-profile-menu-blue: #D8ECFE;
+
+//violets
+$av-main-violet: #565587;
+$av-lighter-violet: #9894C2;
+
+//== Fonts
+//
+$av-font-family-base: 'Source Sans Pro', sans-serif;
+
+//== Font sizes
+//
+$av-font-size-sm: 10px;
+$av-font-size: 12px;
+$av-font-size-md: 14px;
+$av-font-size-gtmd: 15px;
+$av-font-size-lg: 16px;
+$av-font-size-gtlg: 18px;
+$av-font-size-xlg: 20px;
+$av-font-size-xxlg: 24px;
+
+//== Font weights
+//
+$av-font-weight-3: 300;
+$av-font-weight-5: 500;
+$av-font-weight-bold: 600;
+
+//== Heights
+//
+$av-field-height: 2.7rem;
+
+//== Borders
+//
+$av-border-width: 1px;
+$av-border-width-md: 3px;
+
+//== Margins
+//
+$av-margin-base: 1rem;
+$av-margin-sm: 5px;
+$av-margin-md: 1.5rem;
+
+//== Paddings
+//
+$av-padding-xs: 1px;
+$av-padding-sm: 8px;
+$av-padding-base: 10px;
+$av-padding-lg: 14px;
+$av-padding-xlg: 20px;
+$av-field-padding: 5px;
+
+// Button
+//
+$av-button-full-background: $av-main-bg-color;
+$av-button-full-color: $av-white;
+$av-button-full-background-hover: $av-main-bg-color;
+$av-button-full-background-disabled: $av-pastel-gray;
+
+$av-button-ghost-background: transparent;
+$av-button-ghost-color: $av-main-bg-color;
+$av-button-ghost-background-hover: $av-main-bg-color;
+$av-button-ghost-color-hover: $av-white;
+$av-button-ghost-background-disabled: $av-white;
+$av-button-ghost-color-disabled: $av-pastel-gray;
+
+$input-width: 26rem;
+
+// Search input back color
+$av-search-back-color: #F0EEF0;
+
+// logo box width full
+$av-logo-box-full-width: 200px;
+
+// logo box deducted width
+
+$av-logo-box-deducted-width: 52px;
+
+

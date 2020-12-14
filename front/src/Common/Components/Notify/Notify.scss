@@ -1,0 +1,48 @@
+@import 'src/Common/Styles/constants.scss';
+
+$notify-icon-size: 40px;
+
+.notify {
+	display: flex;
+	align-items: center;
+
+	.notify__type-indication {
+		flex: 0 0 5rem;
+		text-align: center;
+		
+		.notify__icon {
+			font-size: $notify-icon-size;
+			height: $notify-icon-size;
+			vertical-align: middle;
+			
+			&.notify__icon--success {
+				color: $av-main-green;
+			}
+			
+			&.notify__icon--warning {
+				color: $av-main-orange;
+			}
+			
+			&.notify__icon--error {
+				color: $av-main-red;
+			}
+		}
+		
+	}
+
+	.notify__content {
+		.notify__message {
+			font-size: $av-font-size-lg;
+			font-weight: $av-font-weight-3;
+		}
+		
+		.notify__action-link {
+			display: block;
+			margin-top: $av-margin-sm;
+			padding: 0;
+			font-size: $av-font-size;
+			font-weight: $av-font-weight-5;
+			line-height: 15px;
+		}
+	}
+}

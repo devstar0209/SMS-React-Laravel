@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 500;
+  src: local('Rubik'), url(../Common/Assets/Fonts/Rubik-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 700;
+  src: local('Rubik'), url(../Common/Assets/Fonts/Rubik-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-weight: 600;
+  src: local('Rubik'), url(../Common/Assets/Fonts/Rubik-SemiBold.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Rubik';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Rubik",
+    monospace;
+}
+
+.app-main__inner {
+  min-height: 800px;
+}
+ 
+.metismenu-item {
+  margin-top: 3rem !important;
+}
+
+.metismenu-item a{
+  font-size: 12px !important;
+}
+.metismenu-item .active {
+  /* font-size: large; */
+}
+
+.pe-7s-add-user{
+  font-size: x-large;
+  /* margin-right: 2rem; */
+}
+
+.sigCanvas {
+  border: 1px solid #000000;
+}
+
+.rt-resizable-header-content {
+  color: #6c757d
+}
+
+.help-block {
+  color: red
+}
+
+.card-header {
+  color: #cccccc
+}
+
+iframe {
+  width: 750px;
+  height: 600px;
+  margin: auto;
+}
+
+.pagination-bottom button {
+  color: #6c757d !important;
+}
+.pagination-bottom button:hover {
+  color: #6c757d !important;
+}
+
+.full_image {
+  height: 100vh;
+  width: 100%;
+}
+
+.text-right i{
+  font-size: 24px;
+}
+
+.rt-td{
+  word-break: break-all;
+}
+
+.app-sidebar.sidebar-text-light .metismenu .metismenu-container .metismenu-link.active {
+  background: white !important;
+  color: #AB5525;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.app-sidebar.sidebar-text-light .metismenu .metismenu-container .metismenu-link:hover {
+  background: white !important;
+  color: #AB5525 !important;
+  border-radius: 20px;
+  width: 200px;
+}

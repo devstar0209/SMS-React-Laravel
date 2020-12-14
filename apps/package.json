@@ -1,0 +1,57 @@
+{
+  "name": "ezyattend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.0",
+    "@react-native-community/checkbox": "^0.5.3",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.9.0",
+    "@react-navigation/native": "^5.7.3",
+    "@react-navigation/stack": "^5.9.0",
+    "axios": "^0.20.0",
+    "moment": "^2.28.0",
+    "react": "16.13.1",
+    "react-native": "0.63.2",
+    "react-native-dropdown-picker": "^3.6.8",
+    "react-native-fs": "^2.16.6",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-image-picker": "^2.3.4",
+    "react-native-image-resizer": "^1.3.0",
+    "react-native-input-credit-card": "^0.5.5",
+    "react-native-inset-shadow": "^1.0.3",
+    "react-native-keyboard-manager": "^4.0.13-16",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-loading-spinner-overlay": "^1.1.0",
+    "react-native-modern-datepicker": "^1.0.0-beta.91",
+    "react-native-normalize": "^1.0.1",
+    "react-native-photo-upload": "^1.3.0",
+    "react-native-responsive-fontsize": "^0.4.3",
+    "react-native-safe-area-context": "^3.1.7",
+    "react-native-screens": "^2.10.1",
+    "react-native-select-multiple": "^2.1.0",
+    "react-native-simple-radio-button": "^2.7.4",
+    "react-native-super-grid": "^4.0.3",
+    "react-native-vector-icons": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.11.6",
+    "@babel/runtime": "7.11.2",
+    "@react-native-community/eslint-config": "1.1.0",
+    "babel-jest": "25.5.1",
+    "eslint": "6.8.0",
+    "jest": "25.5.4",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

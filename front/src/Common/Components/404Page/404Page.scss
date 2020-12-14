@@ -1,0 +1,33 @@
+@import '../../../Common/Styles/constants.scss';
+
+.four-o-four__container {
+    height: 100%;
+    background-image: url('../../../Common/Assets/Images/mainBackground.png');
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .four-o-four-img {
+        width: 32rem;
+        height: 28rem;
+    }
+
+    .logo {
+        width: 6rem;
+    }
+
+    .four-o-four__label {
+        font-size: 24px;
+        font-weight: $av-font-weight-bold;
+        color: $av-text-blue;
+        margin: 25px;
+    }
+
+    .four-o-four__redirect-button {
+        margin-top: 5rem;
+    }
+}
